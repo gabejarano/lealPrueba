@@ -1,0 +1,28 @@
+<nav class="amber accent-4">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Prueba leal</a>
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a (click)="salir()">Salir</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <ul class="sidenav" id="menu-responsive">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="../../../assets/yellow-926728_1920.jpg">
+            </div>
+            <a href="/"><img class="circle" src="../../../assets/cropped-logo-leal-3.png"></a>
+            <a href="/"><span class="black-text name">Leal prueba</span></a>
+            
+        </div>
+    </li>
+    <li><a (click)="salir()" class="waves-effect">Salir</a></li>
+  </ul>
