@@ -25,11 +25,4 @@ describe('LoginComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
-  // it('loguin with correct credentials (email=carltronik@gmail.com, password=123)', () => {
-  //   (<HTMLInputElement>document.getElementById('correo')).value = "carltronik@gmail.com";
-  //   (<HTMLInputElement>document.getElementById('password')).value = "123"
-  //   document.getElementById('btnLogin').click();
-  //   expect()
-  // })
 });
